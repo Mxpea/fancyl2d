@@ -1,0 +1,70 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "Dragon_Balanced.moc3",
+    "Textures": [
+      "Dragon_Balanced.4096/texture_00.png"
+    ],
+    "Physics": "Dragon_Balanced.physics3.json",
+    "DisplayInfo": "Dragon_Balanced.cdi3.json",
+    "Expressions": [
+      {
+        "Name": "Smile",
+        "File": "Dragon_Balanced.smile.exp3.json"
+      },
+      {
+        "Name": "Sad",
+        "File": "Dragon_Balanced.sad.exp3.json"
+      },
+      {
+        "Name": "Angry",
+        "File": "Dragon_Balanced.angry.exp3.json"
+      },
+      {
+        "Name": "Surprised",
+        "File": "Dragon_Balanced.surprised.exp3.json"
+      }
+    ],
+    "Motions": {
+      "Idle": [
+        {
+          "File": "Dragon_Balanced.tailIdle.motion3.json",
+          "FadeInTime": 0.5,
+          "FadeOutTime": 0.5
+        }
+      ],
+      "Blink": [
+        {
+          "File": "Dragon_Balanced.blink.motion3.json"
+        }
+      ],
+      "Nod": [
+        {
+          "File": "Dragon_Balanced.nod.motion3.json"
+        }
+      ],
+      "Shake": [
+        {
+          "File": "Dragon_Balanced.shake.motion3.json"
+        }
+      ]
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

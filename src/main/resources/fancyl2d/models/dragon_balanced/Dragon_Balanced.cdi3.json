@@ -1,0 +1,336 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamTailTip",
+			"GroupId": "",
+			"Name": "Tail Soft Follow"
+		},
+		{
+			"Id": "ParamTailRoot",
+			"GroupId": "",
+			"Name": "Tail Soft Follow"
+		},
+		{
+			"Id": "ParamWingRoll",
+			"GroupId": "",
+			"Name": "WingRoll"
+		},
+		{
+			"Id": "ParamWingPitch",
+			"GroupId": "",
+			"Name": "WingPitch"
+		},
+		{
+			"Id": "ParamWingIdle",
+			"GroupId": "",
+			"Name": "Wing Gentle Idle"
+		},
+		{
+			"Id": "ParamTailIdleCurl",
+			"GroupId": "",
+			"Name": "Tail Idle Tip Curl"
+		},
+		{
+			"Id": "ParamTailIdleSway",
+			"GroupId": "",
+			"Name": "Tail Idle Sway"
+		},
+		{
+			"Id": "ParamArmSwingR",
+			"GroupId": "",
+			"Name": "Arm Inertia R"
+		},
+		{
+			"Id": "ParamArmSwingL",
+			"GroupId": "",
+			"Name": "Arm Inertia L"
+		},
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "ParamGroupFace",
+			"Name": "Angle X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "ParamGroupFace",
+			"Name": "Angle Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "ParamGroupFace",
+			"Name": "Angle Z"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "ParamGroupEyes",
+			"Name": "Left Eye Open"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "ParamGroupEyes",
+			"Name": "Right Eye Open"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "ParamGroupEyes",
+			"Name": "EyeBall X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "ParamGroupEyes",
+			"Name": "EyeBall Y"
+		},
+		{
+			"Id": "ParamEyeBallForm",
+			"GroupId": "ParamGroupEyes",
+			"Name": "Eye Jelly"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "ParamGroupBrows",
+			"Name": "Left Brow Y"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "ParamGroupBrows",
+			"Name": "Right Brow Y"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "ParamGroupMouth",
+			"Name": "Mouth Form"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "ParamGroupMouth",
+			"Name": "Mouth Open"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "ParamGroupBody",
+			"Name": "Body Angle X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "ParamGroupBody",
+			"Name": "Body Angle Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "ParamGroupBody",
+			"Name": "Body Angle Z"
+		},
+		{
+			"Id": "ParamBodyLean",
+			"GroupId": "ParamGroupBody",
+			"Name": "Body Lean"
+		},
+		{
+			"Id": "ParamProportion",
+			"GroupId": "ParamGroupBody",
+			"Name": "Proportion (Chibi)"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "ParamGroupBody",
+			"Name": "Breath"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "ParamGroupPhysics",
+			"Name": "Front Hair Sway"
+		},
+		{
+			"Id": "ParamHairBack",
+			"GroupId": "ParamGroupPhysics",
+			"Name": "Back Hair Sway"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroupFace",
+			"GroupId": "",
+			"Name": "Face"
+		},
+		{
+			"Id": "ParamGroupEyes",
+			"GroupId": "",
+			"Name": "Eyes"
+		},
+		{
+			"Id": "ParamGroupBrows",
+			"GroupId": "",
+			"Name": "Brows"
+		},
+		{
+			"Id": "ParamGroupMouth",
+			"GroupId": "",
+			"Name": "Mouth"
+		},
+		{
+			"Id": "ParamGroupBody",
+			"GroupId": "",
+			"Name": "Body"
+		},
+		{
+			"Id": "ParamGroupPhysics",
+			"GroupId": "",
+			"Name": "Physics"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "PartHead",
+			"Name": "Head"
+		},
+		{
+			"Id": "PartHairBack",
+			"Name": "Back Hair"
+		},
+		{
+			"Id": "PartFace",
+			"Name": "Face"
+		},
+		{
+			"Id": "PartHairFront",
+			"Name": "Front Hair"
+		},
+		{
+			"Id": "PartHeadAccessories",
+			"Name": "Head Accessories"
+		},
+		{
+			"Id": "PartExtra",
+			"Name": "Extra"
+		},
+		{
+			"Id": "PartBody",
+			"Name": "Body"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamAngleX",
+			"ParamAngleY"
+		],
+		[
+			"ParamBodyAngleX",
+			"ParamBodyAngleY"
+		],
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		]
+	],
+	"Drawables": [
+		{
+			"Id": "ArtMeshEarwearR",
+			"Name": "right earwear"
+		},
+		{
+			"Id": "ArtMeshEarwearL",
+			"Name": "left earwear"
+		},
+		{
+			"Id": "ArtMeshEyelashL",
+			"Name": "left eyelash"
+		},
+		{
+			"Id": "ArtMeshEyelashR",
+			"Name": "right eyelash"
+		},
+		{
+			"Id": "ArtMeshFrontHair",
+			"Name": "front hair"
+		},
+		{
+			"Id": "ArtMeshEyebrowL",
+			"Name": "left eyebrow"
+		},
+		{
+			"Id": "ArtMeshEyebrowR",
+			"Name": "right eyebrow"
+		},
+		{
+			"Id": "ArtMeshIridesL",
+			"Name": "left irides"
+		},
+		{
+			"Id": "ArtMeshIridesR",
+			"Name": "right irides"
+		},
+		{
+			"Id": "ArtMeshEyewhiteL",
+			"Name": "left eyewhite"
+		},
+		{
+			"Id": "ArtMeshEyewhiteR",
+			"Name": "right eyewhite"
+		},
+		{
+			"Id": "ArtMeshNose",
+			"Name": "nose"
+		},
+		{
+			"Id": "ArtMeshMouthOpen",
+			"Name": "mouth open"
+		},
+		{
+			"Id": "ArtMeshMouth",
+			"Name": "mouth closed"
+		},
+		{
+			"Id": "ArtMeshFace",
+			"Name": "face"
+		},
+		{
+			"Id": "ArtMeshTopwear",
+			"Name": "topwear"
+		},
+		{
+			"Id": "ArtMeshNeck",
+			"Name": "neck"
+		},
+		{
+			"Id": "ArtMeshTopwear2",
+			"Name": "topwear under"
+		},
+		{
+			"Id": "ArtMeshLegwear",
+			"Name": "legwear"
+		},
+		{
+			"Id": "ArtMeshHandwear",
+			"Name": "handwear"
+		},
+		{
+			"Id": "ArtMeshTail",
+			"Name": "tail"
+		},
+		{
+			"Id": "ArtMeshWingsL",
+			"Name": "left wing"
+		},
+		{
+			"Id": "ArtMeshWingsR",
+			"Name": "right wing"
+		},
+		{
+			"Id": "ArtMeshBackHair",
+			"Name": "back hair"
+		},
+		{
+			"Id": "ArtMeshEyebrowL_SeeThrough",
+			"Name": "left eyebrow (through bangs)"
+		},
+		{
+			"Id": "ArtMeshEyebrowR_SeeThrough",
+			"Name": "right eyebrow (through bangs)"
+		},
+		{
+			"Id": "ArtMeshFrontHair_SeeThrough",
+			"Name": "front hair (through bangs)"
+		}
+	]
+}
